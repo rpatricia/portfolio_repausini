@@ -17,3 +17,43 @@ $light-bg: #1a1a1a;
 $white: #fff;
 $light-color: #aaa;
 $box-shadow:0 .5rem regba(0,0,0,.7);
+
+html {
+    font-size: 62.5%;
+    overflow-x: hidden; 
+
+    &::-webkit-scrollbar {
+        width: 1rem;
+    }
+
+    &::-webkit-scrollbar-track {
+        background: $black;
+    }
+
+    &::-webkit-scrollbar-thumb {
+        background: $blue;
+        border-radius: 5rem;
+    }
+}
+
+body {
+    background: $black;
+    padding-bottom: 6.5rem;
+}
+
+.navbar {
+position: fixed;
+bottom: 0; left: 0; right: 0; 
+display: flex;  
+z-index: 1000;
+align-items: flex-end;
+
+a{
+padding: 2rem; 
+font-size: 2rem; 
+background: $light-bg;
+flex:1;
+color: $white;
+
+}
+}
