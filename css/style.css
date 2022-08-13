@@ -445,4 +445,191 @@ section {
     color: var(--white);
 }
 
+.blogs .box-container {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-column: (minmax(31rem, 1fr))[auto-fit];
+    grid-template-columns: repeat(auto-fit, minmax(31rem, 1fr));
+    gap: 1.5rem;
+}
 
+.blogs .box-container .box {
+    text-align: center;
+    padding: 2rem;
+    border-radius: .5rem;
+    background: var(--light-bg);
+    -webkit-box-shadow: 0 0.5rem 1rem rgab(0, 0, 0, 0.7);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.7);
+}
+
+.blogs .box-container .box:hover .image img {
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+}
+
+.blogs .box-container .box .image {
+    height: 25rem;
+    width: 100%;
+    border-radius: .5rem;
+    overflow: hidden;
+}
+
+.blogs .box-container .box .image img {
+    height: 100%;
+    width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    -webkit-transition: .2s linear;
+    transition: .2s linear;     
+}
+
+.blogs .box-container .box .content .icons {
+    position: relative;
+    top: -1rem;
+    border-radius: .5rem;
+    padding: 1.5rem;
+    display: inline-block;
+    background: var(--black);
+}
+
+.blogs .box-container .box .content .icons a {
+    font-size: 1.4rem;
+    margin: 0 1rem;
+    color: var(--white);
+}
+
+.blogs .box-container .box .content .icons a:hover {
+    color: var(--blue);
+}
+
+.blogs .box-container .box .content .icons a i {
+    padding-right: .5rem;
+    color: var(--blue);
+}
+
+.blogs .box-container .box .content h3 {
+    font-size: 2rem;
+    color: var(--white);
+    font-weight: normal;
+}
+
+.blogs .box-container .box .content p {
+    font-size: 1.5rem;
+    color: var(--white);
+    padding: 1rem 0;
+    line-height: 2;
+}
+
+.contact .row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flexbox;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.contact .row .info-container h1 {
+    font-size: 3rem;
+    text-transform: uppercase;
+    color: var(--white);
+    padding-bottom: 1rem;
+}
+
+.contact .row .info-container p {
+    font-size: 1.5rem;
+    line-height: 2;
+    color: var(--light-color);
+    padding: 1rem 0;
+}
+
+.contact .row .info-container .box-container {
+    padding: 2rem 0;
+}
+
+.contact .row .info-container .box-container .box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 2rem;
+    padding: 1rem 0;
+}
+
+.contact .row .info-container .box-container .box i {
+    font-size: 3rem;
+    color: var(--blue);
+}
+
+.contact .row .info-container .box-container .box h3 {
+    font-size: 2rem;
+    color: var(--white);
+}
+
+.contact .row .info-container .share a {
+    font-size: 2rem;
+    height: 4.5rem;
+    width: 4.5rem;
+    line-height: 4.5rem;
+    border-radius: 50%;
+    background: var(--light-bg);
+    color: var(--light-color);
+    text-align: center;
+    margin-right: 3rem;
+}
+
+.contact .row .info-container .share a:hover {
+    background: var(--blue);
+}
+
+
+.contact .row form {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 42rem;
+       flex:  1 1 42rem;
+}
+
+.contact .row form .inputBox {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.contact .row form .inputBox input {
+    width: 49%;
+}
+
+.contact .row form .inputBox input, .contact .row form textarea  {
+    border-radius: 5rem;
+    padding: 1.2rem 1.8rem;
+    font-size: 1.6rem;
+    color: var(--white);
+    text-transform: none;
+    margin: .7rem 0; 
+    background: var(--light-bg);  
+}
+
+.contact .row form textarea {
+    width: 100%;
+    border-radius: 1rem;
+    resize: none;
+    height: 25rem;
+}
+
+.contact .row form .btn {
+    padding: 1rem 3rem;
+    cursor: pointer;
+}
+
+.contact .row form .btn:hover {
+    background: var(--white);
+    color: var(--black);
+}
+    
