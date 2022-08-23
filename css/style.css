@@ -633,3 +633,52 @@ section {
     color: var(--black);
 }
     
+@media (max-width: 1200px) {
+    html {
+        font-size: 55%;
+    }
+
+    section {
+        padding: 3rem 2rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .heading {
+        font-size: 12vw;
+    }
+    .navbar a i{
+        padding: 0;
+    }
+    .navbar a span {
+        display: none;
+    }
+    .navbar a:hover {
+        padding-bottom: 2rem;
+    }
+    .home .image img {
+        height: 30rem;
+        width: 30rem;
+    }
+    .home .content h3 {
+        font-size: 3rem;
+    }
+    .home .content span {
+        font-size: 2.5rem;
+    }
+    .contact .row form .inputBox input {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+}
+
+@media (max-width: 450px) {
+
+html {
+    font-size: 50%;
+}
+
+}
+
+/* media queries  */
+
