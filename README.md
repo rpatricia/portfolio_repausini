@@ -1,9 +1,11 @@
-# portfolio_repausini
----
+# Portfólio Responsivo
+### Website Portfólio Responsivo
+
+ <p>Site responsivo usando HTML e CSS. Possui links home, sobre, portifólio e blogs.</p>
 
 ## Pré-visualização:
 
-[Portfólio Renata]()
+[]()
 
-<div align="center"><img src=""> </div>
- 
+<div align="center"><img src="assets/img-renata.jpeg" width=auto>
+</div>
