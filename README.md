@@ -5,7 +5,7 @@
 
 ## Pré-visualização:
 
-[]()
+[Portfólio](https://portfolio-repausini.netlify.app/)
 
-<div align="center"><img src="assets/img-renata.jpeg" width=auto>
+<div align="center"><img src="assets/img-readme.jpeg" width=auto>
 </div>
