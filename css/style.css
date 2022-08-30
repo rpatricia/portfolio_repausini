@@ -271,6 +271,18 @@ section {
     color: var(--light-color);
 }
 
+.skills .reveal {
+    position: relative;
+    transform: translateY(100px);
+    opacity: 0;
+    transition: .7s all ease;
+}
+
+.skills .reveal.active {
+    transform: translateY(0);
+    opacity: 1;
+}
+
 .skills .box-container {
     display: -ms-grid;
     display: grid;
