@@ -632,7 +632,7 @@ section {
 }
 
 .contact .row form .inputBox input, .contact .row form textarea  {
-    border-radius: 5rem;
+    border-radius: .5rem;
     padding: 1.2rem 1.8rem;
     font-size: 1.6rem;
     color: var(--white);
