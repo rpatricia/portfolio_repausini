@@ -7,5 +7,5 @@
 
 [Portfólio](https://portfolio-repausini.netlify.app/)
 
-<div align="center"><img src="assets/img-readme.jpeg" width=auto>
+<div align="center"><img src="assets/img-readme.png" width=auto>
 </div>
